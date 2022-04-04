@@ -10,9 +10,9 @@ class Item {
         this.unitPrice = unitPrice;
     }
     public String toString() {
-        String s = this.productName + ":";
-        s = s + this.quantity + "\n";
-        return s;
+        String name = this.productName + ": ";
+        name = name + this.quantity;
+        return name;
     }
 
     public String getProductName() {

@@ -54,13 +54,13 @@ public class Main {
          * Gets the payable amount,
          * it deducts discount and add tax to the total amount of items in cart
          * Expected Output:
-         * 1254
+         * 1232
          */
         double payableAmount = cart.getPayableAmount();
         System.out.println(payableAmount);
 
         /* apply a coupon code */
-        cart.applyCoupon("IND50");
+        cart.applyCoupon("IND100");
 
         /*
          * print the items with the quantity, unit price, total amount
