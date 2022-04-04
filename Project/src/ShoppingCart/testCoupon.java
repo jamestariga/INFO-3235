@@ -11,9 +11,11 @@ public class testCoupon {
     @Test(expected = IllegalArgumentException.class)
     @Category(itemHandlingTest.class)
     public void couponTest() {
+        System.out.println("\nTest Coupon Test...");
 
         String validCoupon = "IND10";
 
+//        cart.applyCoupon("IND10");
         cart.applyCoupon("");
 
         String testingCoupon = cart.coupon;

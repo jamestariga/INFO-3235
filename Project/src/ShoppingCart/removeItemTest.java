@@ -13,6 +13,8 @@ public class removeItemTest {
     @Test
     @Category(itemHandlingTest.class)
     public void testRemoveFromCart() {
+        System.out.println("\nRemove Item Test...");
+
         Item i1 = new Item("Olive Oil 1l", 3, 100.0);
         Item i2 = new Item("Cheese Slices", 2, 50.0);
         Item i3 = new Item("Bread", 1, 75.0);

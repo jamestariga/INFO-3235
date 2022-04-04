@@ -71,9 +71,9 @@ class ShoppingCart {
         if (coupon.equals("IND10")) {
             this.discount = this.getTotalAmount() * (0.1);
             this.totalAmount = this.totalAmount - this.discount;
-            System.out.println("Coupon applied!");
+            System.out.println("\nCoupon applied!");
         } else {
-            System.out.println("Coupon invalid!");
+            System.out.println("\nCoupon invalid!");
         }
 
     }
