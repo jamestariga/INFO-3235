@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Categories.class)
-@Categories.IncludeCategory(priceTest.class)
+//@Categories.IncludeCategory(priceTest.class)
 @Suite.SuiteClasses({
         addItemTest.class,
         removeItemTest.class,

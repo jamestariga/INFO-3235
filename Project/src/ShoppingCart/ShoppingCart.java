@@ -44,6 +44,7 @@ class ShoppingCart {
                 Item item2 = iterator1.next();
                 if (item2.getProductName().equals(i.getProductName())) {
                     this.item.remove(i);
+                    System.out.println("\nRemoved " + i + " from cart");
                     break;
                 }
             } while (iterator1.hasNext());

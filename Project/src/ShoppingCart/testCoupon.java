@@ -14,7 +14,7 @@ public class testCoupon {
 
         String validCoupon = "IND10";
 
-        cart.applyCoupon("IND10");
+        cart.applyCoupon("");
 
         String testingCoupon = cart.coupon;
 
