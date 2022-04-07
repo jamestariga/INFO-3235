@@ -91,16 +91,19 @@ public class Main {
 
                 case 6 -> {
                     double totalAmount = cart.getTotalAmount();
-                    System.out.println(totalAmount);
+                    System.out.println("Total: " + totalAmount);
                 }
 
                 case 7 -> {
                     cart.getTotalAmount();
                     double payableAmount = cart.getPayableAmount();
-                    System.out.println(payableAmount);
+                    System.out.println("Payable: " + payableAmount);
                 }
 
-                case 8 -> mainLoop = false;
+                case 8 -> {
+                    mainLoop = false;
+                    System.out.println("Thank You! Come again!");
+                }
             }
         }
     }
